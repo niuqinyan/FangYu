@@ -1,0 +1,99 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+}
+
+.process{
+	}
+/*业务流程  标题*/
+.process span{
+	display:block;
+	width:914px;
+	height:30px;
+	background:url(../images/process_title.png);
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	text-align:center;
+	line-height:30px;
+	}
+/*业务流程  内容*/
+#process_content{
+	background:url(../images/process.png);
+	width:914px;
+	height:96px;
+	padding-top:23px;
+	}
+#process_content ul{
+	margin:0 auto;
+	padding:0;
+	background:url(../images/tree.png) center repeat-x;
+	height:70px;
+	}
+/*业务流程  内容  显示一行的样式*/	
+#process_content ul li{
+	background:url('../images/myClass.png') left no-repeat;display:block;
+	background-position: -190px 25px !important;
+	position:relative;
+	list-style:none;
+	width:59px;
+	height:70px;
+	float:left;
+	}
+#process_content ul li:hover{
+	background-position: -286px 26px !important;
+	width:59px;
+	height:70px;
+	}
+#process_content ul .active{
+	background-position: 0px 26px !important;
+	width:59px;
+	height:70px;
+	}
+#process_content ul li span{
+	display:block;
+	background:url('../images/myClass.png') left no-repeat;display:block;
+	background-position: -77px 27px !important;
+	width:43px;
+	height:70px;
+	float:right;
+	/*cursor:default;*/
+	}
+	
+	
+/*业务流程  内容  显示两行的样式*/	
+	
+#process_content ul .change_li_position{
+	background-position: -190px 13px !important;
+	width:59px;
+	height:70px;
+	}
+#process_content ul .change_li_position:hover{
+	background-position: -286px 14px !important;
+	width:59px;
+	height:70px;
+	}
+#process_content ul .change_active_position{
+	background-position: 0px 14px !important;
+	width:59px;
+	height:70px;
+	}
+#process_content ul li .change_span_position{
+	background-position: -77px 15px !important;
+	width:43px;
+	height:70px;
+	}
+
+/*业务流程  内容  <a>(节点信息)的样式*/
+#process_content ul li a{
+	position:absolute;
+	display:block;
+	width:120px;
+	color:#333333;
+	font-size:12px;
+	}
